@@ -1,0 +1,94 @@
+ header{
+    position : relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+ }
+ h1{
+    position: relative;
+    top: 30%;
+    left: 50%;
+    text-align: center;
+     font-size: 34px;
+     text-shadow: 2px 2px 16px black;
+     color: white;
+     font-weight: bold;
+     z-index: 3;
+     transform: translate(-50%, -50%);
+     justify-content: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+ }
+
+ video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+ }
+ .logo{
+   position: absolute;
+   height: 110px;
+   left: 20px;
+   top:20px;
+   width: 290px;
+   z-index: 3;
+ }
+
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ .overlay{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0,0,0,0.3);
+   z-index: 2;
+
+
+
+
+ }
+
+ @media (max-width: 768px) {
+    h1{
+      font-size: 24px;
+    }
+    .logo{
+      height: 80px;
+      width: 200px;
+      left: 10px;
+    }
+
+
+ }
+
+ .navlink{
+  color: white;
+  margin-right: 40px;
+  font-size: 21px;
+  text-decoration: none;
+  z-index: 3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .navbar{
+  z-index: 3;
+  position: relative;
+  background:transparent;
+  padding: 50px 20px;
+ }
+ .navbar-togler{
+  color: white;
+  border: none;
+  background: transparent;
+  font-size: 28px;
+  
+ }
