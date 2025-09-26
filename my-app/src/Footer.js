@@ -26,14 +26,13 @@ function Footer (){
                         <li><a href="#">Share with Others</a></li>
                     </ul>
                 </div>
-                <div className="footer-col">
-                    <h4>Contact Us</h4>
-                    <ul>
-                        <li><a href="#">Noor-ul-Qur’an@gmail.com</a></li>
-                        <li><a href="#">+92 300 1234567</a></li>
-                        <li><a href="#">Karachi, Pakistan</a></li>
-
-                    </ul>
+                <div className="footer-col subscribe">
+                    <h4>Subscribe</h4>
+                    <form>
+                        <input type="email" placeholder="Enter your email" />
+                       < button type="Sumbit">subscribe</button>
+                    </form>
+                    
                 </div>
                 
                 <div className="footer-col">
